@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stormi & Phoebe</title>
+
+  <title>NAVBAR</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+  <title>ZOOM</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js">
+
+<script>
+        $(document).ready(function(){
+           $("#in").click(function(){
+                $("img").width($("img").width()+100);
+                $("img").height($("img").height()+100);
+           });
+           $("#out").click(function(){
+                $("img").width($("img").width()-100);
+                $("img").height($("img").height()-100);
+           });
+        });
+    </script>
+
+    </script>
+
+</head>
+<body>
+<hr>
+  <div class="sidebar">
+    <div class="top">
+        <div class="logo">
+            <i class="bx bxs-dog"></i>
+            <span>StormiPhoebe</span>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+    </div>
+    <div class="user">
+        <img src="C:\Users\large\Downloads\Untitled_Artwork (1).jpg" alt="puppies" class="user-img">
+        <div>
+             <p class="bold">Stormi</p>
+             <p>Phoebe</p>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <a href="index3.html">
+                    <i class="bx bx-home"></i>
+                    <span class="nav-item">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+           </li>
+            <li>
+                <a href="Adventures.html">
+                    <i class="bx bxs-tree"></i>
+                    <span class="nav-item">Adventures</span>
+                </a>
+                <span class="tooltip">Adventures</span>
+           </li>
+            <li>
+                <a href="foods.html">
+                    <i class="bx bxs-shopping-bag"></i>
+                    <span class="nav-item">Food</span>
+                </a>
+                <span class="tooltip">Food</span>
+           </li>
+            <li>
+                <a href="toys.html">
+                    <i class="bx bxs-baseball"></i>
+                    <span class="nav-item">Toys</span>
+                </a>
+                <span class="tooltip">Toys</span>
+           </li>
+            <li>
+                <a href="selfies.html">
+                    <i class="bx bxs-photo-album"></i>
+                    <span class="nav-item">Selfies</span>
+                </a>
+                <span class="tooltip">Selfies</span>
+           </li>
+            <li>
+                <a href="service.html">
+                    <i class="bx bxs-objects-horizontal-center"></i>
+                    <span class="nav-item">Service</span>
+                </a>
+                <span class="tooltip">Service</span>
+           </li>
+            <li>
+                <a href="contact.html">
+                    <i class="bx bxs-contact"></i>
+                    <span class="nav-item">Contact</span>
+                </a>
+                <span class="tooltip">Contact</span>
+           </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="container"></div>
+<section>
+    <h1> Toys </h1>
+    <p>At times when our mom is at work, and our grandparents are at work we play with toys! Now we are very particular on the kind of toys we like! so if you ever choose to gift us a toy make sure you spend your money wisely based on our suggestions below!
+    </p>
+    <center>
+        <h3>ZOOM BUTTON</h3>
+        <button id="in">+</button>
+        <button id="out">-</button>
+        <br><br>
+        <img src="C:\Users\large\Downloads\IMG_4798.jpg" width="320px" height="240px">
+    </center>
+
+</body>
+
+<script>
+        $(document).ready(function(){
+           $("#in").click(function(){
+                $("img").width($("img").width()+100);
+                $("img").height($("img").height()+100);
+           });
+           $("#out").click(function(){
+                $("img").width($("img").width()-100);
+                $("img").height($("img").height()-100);
+           });
+        });
+    </script>
+
+<script type="text/javascript">
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar');
+
+    btn.onclick = function function_name(argument) {
+        sidebar.classList.toggle('active')
+        // body...
+    };
+
+</script>
+
+</html>
