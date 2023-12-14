@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stormi & Phoebe</title>
+
+  <title>NAVBAR</title>
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<hr>
+  <div class="sidebar">
+    <div class="top">
+        <div class="logo">
+            <i class="bx bxs-dog"></i>
+            <span>StormiPhoebe</span>
+        </div>
+        <i class="bx bx-menu" id="btn"></i>
+    </div>
+    <div class="user">
+        <img src="C:\Users\large\Downloads\Untitled_Artwork (1).jpg" alt="puppies" class="user-img">
+        <div>
+             <p class="bold">Stormi</p>
+             <p>Phoebe</p>
+            </div>
+        </div>
+        <ul>
+            <li>
+                <a href="index3.html">
+                    <i class="bx bx-home"></i>
+                    <span class="nav-item">Home</span>
+                </a>
+                <span class="tooltip">Home</span>
+           </li>
+            <li>
+                <a href="Adventures.html">
+                    <i class="bx bxs-tree"></i>
+                    <span class="nav-item">Adventures</span>
+                </a>
+                <span class="tooltip">Adventures</span>
+           </li>
+            <li>
+                <a href="foods.html">
+                    <i class="bx bxs-shopping-bag"></i>
+                    <span class="nav-item">Food</span>
+                </a>
+                <span class="tooltip">Food</span>
+           </li>
+            <li>
+                <a href="toys.html">
+                    <i class="bx bxs-baseball"></i>
+                    <span class="nav-item">Toys</span>
+                </a>
+                <span class="tooltip">Toys</span>
+           </li>
+            <li>
+                <a href="selfies.html">
+                    <i class="bx bxs-photo-album"></i>
+                    <span class="nav-item">Selfies</span>
+                </a>
+                <span class="tooltip">Selfies</span>
+           </li>
+            <li>
+                <a href="service.html">
+                    <i class="bx bxs-objects-horizontal-center"></i>
+                    <span class="nav-item">Service</span>
+                </a>
+                <span class="tooltip">Service</span>
+           </li>
+            <li>
+                <a href="contact.html">
+                    <i class="bx bxs-contact"></i>
+                    <span class="nav-item">Contact</span>
+                </a>
+                <span class="tooltip">Contact</span>
+           </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="container"></div>
+
+<section>
+    <h1> Food</h1>
+    <p> We love food! we love stinky foody, soft foods, hard foods, wet food, and funny shaped looking food!
+        we have lisit our taste ratings of all the foods we do and dont enjoy below!
+    </p>
+
+ </section>   
+
+ <footer>
+    <h3>Follow Us on Instagram!</h3>
+</footer>
+
+</body>
+
+<script type="text/javascript">
+    let btn = document.querySelector('#btn')
+    let sidebar = document.querySelector('.sidebar');
+
+    btn.onclick = function function_name(argument) {
+        sidebar.classList.toggle('active')
+        // body...
+    };
+
+</script>
+
+</html>
